@@ -1,60 +1,7 @@
 {
   "images": {
-    "base-images": [
-      {
-        "created": 1677663833,
-        "published": 1678703934,
-        "date": "2023-03-01",
-        "description": "Official Cloudbreak image",
-        "images": {
-          "aws": {
-            "af-south-1": "ami-0f96cb1ea0bd4443f",
-            "ap-east-1": "ami-02ee001d0e3796b2e",
-            "ap-northeast-1": "ami-0590130184e156fe4",
-            "ap-northeast-2": "ami-027d4692f0ded8467",
-            "ap-south-1": "ami-07a3a5c1d6a5f9309",
-            "ap-southeast-1": "ami-06ee65023ad734b8a",
-            "ap-southeast-2": "ami-04549a43c668df84a",
-            "ap-southeast-3": "ami-031fe189231ad0809",
-            "ca-central-1": "ami-095c3f0f552011109",
-            "eu-central-1": "ami-014d3779e378bc5b9",
-            "eu-central-2": "ami-054382cccd395b706",
-            "eu-north-1": "ami-0148af5460861f99c",
-            "eu-south-1": "ami-01e6cf67e27ee0287",
-            "eu-south-2": "ami-0c7c26418e23a58fc",
-            "eu-west-1": "ami-0c3bf6dfee34f7138",
-            "eu-west-2": "ami-0937dfb69022af4ce",
-            "eu-west-3": "ami-0c9d3815d40fcc9de",
-            "me-south-1": "ami-094c284ff4bafffdb",
-            "sa-east-1": "ami-0e1c07dc7250c57fb",
-            "us-east-1": "ami-0b35cb48f30fef562",
-            "us-east-2": "ami-0c304cbf8c4e7e499",
-            "us-west-1": "ami-0af5d8b1bbee99287",
-            "us-west-2": "ami-0ff7ec0f576bc07be"
-          }
-        },
-        "os": "centos7",
-        "os_type": "redhat7",
-        "uuid": "41efe767-7598-4ed6-b3b2-2e93c17811cf",
-        "package-versions": {
-          "blackbox-exporter": "0.19.0",
-          "cdp-logging-agent": "0.3.6",
-          "cdp-minifi-agent": "1.22.07",
-          "cdp-prometheus": "2.36.2",
-          "cdp-request-signer": "0.2.4",
-          "cdp-telemetry": "0.4.31",
-          "cloudbreak_images": "0ed7ae8",
-          "inverting-proxy-agent": "3.0.3-b2",
-          "inverting-proxy-agent_gbn": "37118790",
-          "metering_agent": "1.0.0",
-          "node-exporter": "1.3.1",
-          "salt": "3001.8",
-          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
-        }
-      }
-      
-    ],
     "cdh-images": [
+
       {
         "created": 1686328253,
         "published": 1687250545,
@@ -62,7 +9,8 @@
         "description": "Official Cloudbreak image",
         "images": {
           "aws": {
-            "eu-west-2": "ami-08ea2e95fbc347b80"
+            "eu-west-2": "ami-08ea2e95fbc347b80",
+            "us-west-2": "ami-0fddb7278a4d13641"
           }
         },
         "os": "centos7",
@@ -139,7 +87,6 @@
           "https://archive.cloudera.com/p/cfm2/2.2.6.200/redhat7/yum/tars/parcel/NIFIREGISTRY-1.18.0.2.2.6.200-1.jar"
         ]
       }
-      
     ]
   },
   "versions": {
@@ -149,7 +96,7 @@
           "6ae7a601-f691-460f-b243-ff95614871cd"
         ],
         "defaults": [
-          "6ae7a601-f691-460f-b243-ff95614871cd"
+          "6ae7a601-f691-460f-b243-ff95614871cd",
         ],
         "versions": [
           "2.71.0-b135",
